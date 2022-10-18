@@ -84,5 +84,19 @@ if (resultado != undefined) {
     console.log(`El resultado de la ${operacion} ${numUno} y ${numDos} es: ${resultado}`);
 }  */
 
+/* DESAFIO EXTRA */
+
+/* const velocidad = 250;
+const altura = 220;
+
+if (velocidad > 267 && velocidad < 278 && altura > 149 && 300) {
+    console.log('Puede aterrizar.');
+    console.log(`Su velocidad es de ${velocidad} y su altura es de ${altura}`);
+}
+else{
+    console.log('No puede aterrizar.');
+    console.log(`Su velocidad es de ${velocidad} y su altura es de ${altura}`);
+} */
+
 
 

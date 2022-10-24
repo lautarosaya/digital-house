@@ -1,3 +1,5 @@
+//* Ejercicio 1
+
 const electrodomesticos = ['Microondas', 'Heladera', 'Cocina', 'Horno', 'Licuadora', 'Tostadora']
 
 //*Aleatorio
@@ -30,10 +32,30 @@ console.log(buscar(electrodomesticos, 'Frezeer')); */
 
 //* Juntar elementos de array con espaciado
 /* const juntarArray = electrodomesticos.join(' ');
-console.log(juntarArray);
- */
+console.log(juntarArray); */
+
 
 //* Determinar la cantidad de elementos que tiene el string obtenido
-/* const conversionArray = juntarArray.split(' ');
-const elementosArray = conversionArray.length
-console.log(conversionArray, elementosArray); */
+/* const elementosTexto = juntarArray.length
+console.log(elementosTexto); */
+
+//* Cambiar alguna palabra del string
+/* const cambiarPalabra = juntarArray.replace('Heladera', 'Menem');
+console.log(cambiarPalabra); */
+
+//* Convertir texto a array
+/* const convertirTexto = juntarArray.split(" ");
+console.log(convertirTexto); */
+
+//* Ejercicio 2
+
+const peliculas = ['Turno de dia', '30 noches con mi ex', 'Bestia', 'El monte', 'Top gun maverick', 'Elvis', 'Thor'];
+
+const ponerPrimero = pelicula => {
+    eliminar = peliculas.pop();
+    agregarPrimero = peliculas.unshift(eliminar);
+    
+    convertir = peliculas.toString();
+}
+console.log(ponerPrimero('Thor'));
+

@@ -53,7 +53,9 @@ console.log(frase.split(' ')); */
 /* const messi = 'messi es el peor jugador del mundo';
 console.log(messi.replace('peor', 'mejor')); */
 
-/* Ej playground 1 */
+/* 
+*Ej playground 1 
+*/
 
 /* function dominio (string) {
     return "http://www." + string;
@@ -65,7 +67,9 @@ console.log(dominio('digitalhouse.com.ar')); */
 /* const frase = 'hola mundo';
 console.log(frase.length); */
 
-/* Ej playground tres */
+/* 
+*Ej playground tres 
+*/
 
 /* const reemplazoFastFast = (texto, palabraBuscar, palabraReemplazar) => {
     textoNuevo = texto.replace(palabraBuscar, palabraReemplazar);
@@ -78,3 +82,31 @@ console.log(reemplazoFastFast('hola mundo', 'mundo', 'gente')); */
     return textoNuevo;
 }
 console.log(reemplazoFastFast('hola mundo', 'mundo', 'gente')); */
+
+/* 
+*Ej playground 4
+*/
+
+/* const menciona = (texto, palabra) => {
+    let rta = texto.indexOf(palabra);
+    return rta != -1 ? true: false;
+}
+
+console.log(menciona('Existen muchos lenguajes de programación y JavaScript es uno de ellos', 'programación')); */ 
+
+/* function menciona (texto, palabra) {
+    let rta = texto.indexOf(palabra);
+   return rta != -1 ? true: false;
+}
+
+console.log(menciona('Existen muchos lenguajes de programación y JavaScript es uno de ellos', 'pedro')); */
+
+/* 
+*Ej playground 5
+*/
+
+/* let frase = 'Hola!, soy Carli';
+console.log(frase.length);
+console.log(frase.indexOf('Carli'));
+const licenciada = frase.slice(11, 16)
+console.log(licenciada); */

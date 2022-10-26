@@ -35,6 +35,6 @@ console.log(saludar('Lautaro')); */
 
 /* EJ 3 PLAYGROUND */
 
-let saludar = (nombre, apellido) => 'Hola, ' + nombre + ' ' +apellido + '!';
+/* let saludar = (nombre, apellido) => 'Hola, ' + nombre + ' ' +apellido + '!';
 
-console.log(saludar('Lautaro', 'Sayavedra'));
+console.log(saludar('Lautaro', 'Sayavedra')); */

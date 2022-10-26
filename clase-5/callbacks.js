@@ -39,3 +39,12 @@ let multiplicacion = (numUno, numDos) => numUno * numDos;
 let calculadora = (numUno, numDos, operacion) => operacion(numUno, numDos);
 
 console.log(calculadora(2, 2, resta)); */
+/* let cuenta = (cantidad, precio) => cantidad * precio;
+let vender = cantidad => cantidad - cantidad;
+
+let precioTragos = (cantidad, precio, resultado) => resultado(cantidad, precio);
+
+console.log(precioTragos(10, 100, cuenta)); */
+
+
+

@@ -49,22 +49,24 @@ console.log(convertirTexto); */
 
 //* Ejercicio 2
 
-/* let peliculas = ['Turno de dia', '30 noches con mi ex', 'Bestia', 'El monte', 'Top gun maverick', 'Elvis', 'Thor'];
+let peliculas = ['Turno de dia', '30 noches con mi ex', 'Bestia', 'El monte', 'Top gun maverick', 'Elvis', 'Thor'];
 
 const ponerPrimero = pelicula => {
-    eliminarUno = peliculas.pop();
-    agregarPrimero = peliculas.unshift(eliminarUno);
-    pelicula.toUpperCase();
-    return peliculas;
+    let convertir = peliculas.join(' ').toUpperCase();
+    let newArray = convertir.split(' ');
+    
+    return newArray;
+
+    
 }
 console.log(ponerPrimero('Thor'));
 
-const pelisEstrenar = ['Counter-Strike', 'NOP', 'Vértigo', 'Nick', 'Avatar'];
+/*const pelisEstrenar = ['Counter-Strike', 'NOP', 'Vértigo', 'Nick', 'Avatar'];
 separados = pelisEstrenar.join();
 eliminarDos = pelisEstrenar.shift();
 
 const juntar = (arrayUno, arrayDos) => juntaderoDePelis = arrayUno.concat(arrayDos);
 
-console.log(juntar(peliculas, pelisEstrenar)); */
+console.log(juntar(peliculas, pelisEstrenar));  */
 
 

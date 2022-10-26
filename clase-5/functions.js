@@ -56,12 +56,12 @@ console.log(longitudNombreCompleto('Lautaro', 'Sayavedra')); */
 
 /* FUNCTION CONATENAR */
 
-/* function escribirCartelito(titulo, nombre, apellido) {
+function escribirCartelito(titulo, nombre, apellido) {
     let frase = titulo + " " + nombre + " " + apellido;
     return frase;
 }
 
-console.log('Ing.', 'Lautaro', 'Sayavedra'); */
+console.log('Ing.', 'Lautaro', 'Sayavedra');
 
 /* FUNCTION OLLA */
 

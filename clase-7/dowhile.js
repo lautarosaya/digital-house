@@ -1,6 +1,6 @@
 //* Creando la tabla de multiplicar
 
-const tablaDeMultiplicar = numero => {
+/* const tablaDeMultiplicar = numero => {
     let primerNum = 1;
     while (primerNum <= 10) {
         calculo = numero * primerNum;
@@ -9,4 +9,4 @@ const tablaDeMultiplicar = numero => {
     }
 }
 
-console.log(tablaDeMultiplicar(2));
+console.log(tablaDeMultiplicar(2)); */

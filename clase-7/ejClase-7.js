@@ -1,3 +1,4 @@
+//*Saldo Bancario
 /* const operaciones=[50,-48,58,78,-69,-45];
 
 function cuenta(operaciones){
@@ -27,3 +28,32 @@ function usuario(nombre, apellido, operaciones){
 }
 
 console.log(usuario('Pepito', 'Mancini', cuenta(operaciones))); */
+
+//*Tabla de multiplicar
+
+/* const calcularTabla = (numero) => {
+    console.log(`El numero a multiplicar es ${numero}`);
+    for (let i = 1; i < 10; i++) {
+        let rta = numero * i;
+        console.log(`${numero} * ${i} = ${rta}`);
+    }
+}
+
+const mostrarTabla = () => {
+    for (let i = 1; i < 10; i++) {
+        calcularTabla(i);
+    }
+}
+
+console.log(mostrarTabla()); */
+
+//* Ej Extra
+//pedir un numero por una funcion
+//a ese numero le tengo que sumar 10 y devolver esos numeros
+const mostrarNumerosSiguientes = (numero) => {
+    let rta = numero + 10;
+    for (let i = numero; i <= rta; i++) {
+        console.log(i);
+    }
+}
+console.log(mostrarNumerosSiguientes(1));

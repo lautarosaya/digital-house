@@ -31,4 +31,46 @@ console.log(gananciaTotal([20, 25, 56,87])); */
     }
     return cantidad;
   } */
- 
+
+//*Filtrados 
+/* const saldosDeMesesConGanancia = unPeriodo => {
+    let gananciaArray = [];
+    for (let i = 0; i < unPeriodo.length;i++) {
+       ganancia = unPeriodo[i];
+          if (ganancia > 0) {
+            gananciaArray.push(ganancia);            
+          }
+    }
+    return gananciaArray;
+}
+
+console.log(saldosDeMesesConGanancia([100, 20, 0, -10, 10])); */
+
+//*Mas conteos
+/* const cantidadDeMesesConPerdida = (unPeriodo) => {
+    let cantidad = 0;
+    let valor = 0;
+    for (let i = 0; i < unPeriodo.length; i++) {
+        valor = unPeriodo[i];
+        if (valor < 0) {
+            cantidad++
+        }
+    }
+    return cantidad;
+}
+console.log(cantidadDeMesesConPerdida([100, 20, 0, -10, 10])); */
+
+//*Numeros Impares
+
+/* const numerosImpares = () => {
+    let cantidad = 0;
+    let num = 1;
+    while (cantidad < 20) {
+        if (num%2 != 0) {
+            console.log(num);
+            cantidad++
+        }
+        num++
+    }
+}
+console.log(numerosImpares()); */

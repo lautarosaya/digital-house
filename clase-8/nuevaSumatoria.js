@@ -51,21 +51,7 @@ console.log(asientosDisponibles([1,2,4,5], 6));  */
 //ciclo estacion hasta 5
 //calculamos los pasajeros
 //lo devolvemos
-/* const reporteDePasajeros = nroEstacion => {
-   let pasajerosTren = [];
-   let pasajeros = 200;
-   for (let i = 0; i <= nroEstacion; i++) {
-    pasajerosTren.push(`En la estacion ${i} hay ${pasajeros} pasajeros arriba del tren`);
-    if (i == 4) {
-        pasajeros = pasajeros + 40;
-    } else {
-        pasajeros = pasajeros + 20;
-    }
-   }
-   return pasajerosTren;
-}
 
-console.log(reporteDePasajeros(1)); */
 
 function reporteDePasajeros(nroEstacion){
     let pasajerosTren = [];

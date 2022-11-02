@@ -46,6 +46,15 @@ console.log(asientosDisponibles([15,20,18,22,49],49)); */
 }
 console.log(asientosDisponibles([1,2,4,5], 6));  */
 
+/* const asientosDisponibles = (array, asiento) => {
+    const largo = array.length;
+    if (array.includes(asiento)) {
+        return `El asiento ${asiento} esta disponible`;
+    } 
+    return `El asiento ${asiento} no esta disponible pero quedan ${largo} lugares`;    
+}
+console.log(asientosDisponibles([1,2,4,5], 9)); */
+
 //*Control de pasajeros
 //funcion como parametro nroEstacion
 //ciclo estacion hasta 5
@@ -53,7 +62,7 @@ console.log(asientosDisponibles([1,2,4,5], 6));  */
 //lo devolvemos
 
 
-function reporteDePasajeros(nroEstacion){
+/* function reporteDePasajeros(nroEstacion){
     let pasajerosTren = [];
     let pasajeros = 200;
     for (let i = 0; i <= nroEstacion; i++) {
@@ -67,7 +76,7 @@ function reporteDePasajeros(nroEstacion){
     return pasajerosTren;
  }
  
-console.log(reporteDePasajeros(0)); 
+console.log(reporteDePasajeros(0));  */
 
 
 //*Clave secreta

@@ -23,10 +23,63 @@ let mostrarEquipos = equipos.forEach(function(equipo){
 }); */
 
 //* EJ 1 Playground
-//* Ej 2 playground
-let horariosPartida = [12, 14, 18, 21];
-let agregarHora = horariosPartida.map(function(hora){
-    let sumar = hora + 1;
-    return sumar;
+/* let estudiantes = [
+    {nombre: 'John', promedio: 8.5, aprobado: true},
+    {nombre: 'Jane', promedio: 7, aprobado: true},
+    {nombre: 'June', promedio: 3, aprobado: false},
+]
+let aprobados = estudiantes.filter(function(nota){
+    return nota.aprobado == true;
 });
-console.log(agregarHora);
+let desaprobados = estudiantes.filter(function(nota){
+    return nota.aprobado == false;
+}) 
+console.log(desaprobados); */
+//* Ej 2 playground
+/* let horariosPartida = [12, 14, 18, 21];
+let horariosAtrasados = horariosPartida.map(function(hora){
+    return hora - 1;
+});
+console.log(horariosAtrasados); */
+//*Ej Tres playgrond
+/* let vueltas = [5, 8, 12, 3, 22];
+let totalVueltas = vueltas.reduce(function(acum, num){
+    return acum + num;
+});
+console.log(totalVueltas); */
+
+//*Ej 4 Playground
+/* let listaDeSuperMercado = [
+    'Bife de chorizo', 
+    'Coca Cola', 
+    'Bananas', 
+    'Lechuga', 
+    'Chimichurri', 
+    'Lata de tomates', 
+    'Arvejas', 
+    'Cereales', 
+    'Pechuga de pollo', 
+    'Leche'
+];
+
+let mostrarLista = listaDeSuperMercado.forEach(function(cosas){
+    console.log(cosas);
+}) */
+
+//* arrow function
+/* let listaDeSuperMercado = [
+    'Bife de chorizo', 
+    'Coca Cola', 
+    'Bananas', 
+    'Lechuga', 
+    'Chimichurri', 
+    'Lata de tomates', 
+    'Arvejas', 
+    'Cereales', 
+    'Pechuga de pollo', 
+    'Leche'
+];
+
+let mostrarLista = listaDeSuperMercado.forEach((cosas) => {
+    console.log(cosas);
+}) */

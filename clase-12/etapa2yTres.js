@@ -29,6 +29,19 @@ const concesionaria = {
   },
   autosNuevos: function () {
     let autoNuevo = this.autosParaLaVenta();
+    const prueba = autoNuevo.filter(function (kilometros) {
+      return kilometros.km < 100;
+    });
+    return prueba;
+  },
+  listaDeVentas: function () {
+    let autosVendidos = this.autos.filter(function (vendidos) {
+      return vendidos.vendido == true;
+    });
+    let listaVendidos = autosVendidos.map(function (precio) {
+      return precio.precio;
+    });
+    return listaVendidos;
   },
 };
-console.log(concesionaria.autosNuevos());
+console.log(concesionaria.listaDeVentas());

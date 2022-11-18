@@ -43,5 +43,18 @@ const concesionaria = {
     });
     return listaVendidos;
   },
+  totalDeVentas: function () {
+    let listaVentas = this.listaDeVentas().reduce(function (acum, num) {
+      return acum + num;
+    });
+    return listaVentas;
+  },
+  puedeComprar: function (auto, persona) {
+    let precioDeCuotas = auto.precio / auto.cuotas;
+    return (
+      persona.capacidadDePagoEnCuotas >= precioDeCuotas &&
+      persona.capacidadDePagoTotal >= auto.precio
+    );
+  },
+  autosQuePuedeComprar: function (persona) {},
 };
-console.log(concesionaria.listaDeVentas());

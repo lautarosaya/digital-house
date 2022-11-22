@@ -46,7 +46,7 @@ const concesionaria = {
   totalDeVentas: function () {
     let listaVentas = this.listaDeVentas().reduce(function (acum, num) {
       return acum + num;
-    });
+    }, 0);
     return listaVentas;
   },
   puedeComprar: function (auto, persona) {
@@ -58,3 +58,5 @@ const concesionaria = {
   },
   autosQuePuedeComprar: function (persona) {},
 };
+
+console.log(concesionaria.totalDeVentas());

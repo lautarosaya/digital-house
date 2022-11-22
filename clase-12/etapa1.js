@@ -8,18 +8,18 @@ const autos = [
     cuotas: 12,
     año: 2019,
     patente: "APL123",
-    vendido: true,
+    vendido: false,
   },
   {
     marca: "Toyota",
     modelo: "Corolla",
-    precio: 1100000,
+    precio: 100000,
     km: 0,
     color: "Blanco",
     cuotas: 14,
     año: 2019,
     patente: "JJK116",
-    vendido: true,
+    vendido: false,
   },
 ];
 module.exports = autos;

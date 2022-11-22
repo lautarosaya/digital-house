@@ -56,7 +56,20 @@ const concesionaria = {
       persona.capacidadDePagoTotal >= auto.precio
     );
   },
-  autosQuePuedeComprar: function (persona) {},
+  autosQuePuedeComprar: function (persona) {
+    let autosParaLaVenta = this.autosParaLaVenta();
+    let puedeComprar = this.puedeComprar;
+    let autosPuedeComprar = autosParaLaVenta.filter(function (auto) {
+      return puedeComprar(auto, persona);
+    });
+    return autosPuedeComprar;
+  },
 };
 
-console.log(concesionaria.totalDeVentas());
+console.log(
+  concesionaria.autosQuePuedeComprar({
+    nombre: "Juan",
+    capacidadDePagoEnCuotas: 30000,
+    capacidadDePagoTotal: 100000000,
+  })
+);
